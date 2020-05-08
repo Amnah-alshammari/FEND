@@ -1,0 +1,19 @@
+@media only screen and (max-width: 500px) {
+.navigation {
+     flex-direction: column !important;
+     align-items: center;
+     text-transform: uppercase;
+     justify-content: center;
+     padding: 0;
+}
+.logo{
+     text-align: center !important;
+}
+.post-cards {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     grid-auto-rows: auto;
+     grid-gap: 1rem;
+     padding: 60px;
+}
+}

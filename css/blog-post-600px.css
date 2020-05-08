@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+ .navbar-container {
+    display: block !important;
+ }
+
+ .logo {
+    font-size: 1.8em;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+ }
+
+ .navigation {
+    justify-content: center;
+ }
+
+ .sidebar {
+    display: grid;
+    grid-area: 2/1;
+    width: auto;
+ }
+
+ .post-image {
+    height: auto !important;
+ }
+}

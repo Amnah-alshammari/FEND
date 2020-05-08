@@ -1,0 +1,104 @@
+@import url("typography.css");
+@import "main-style-600px.css" screen and (max-width: 600px);
+@import "main-style-500px.css" screen and (max-width: 500px);
+
+html,body{
+    background-color: #ececec;
+    scroll-behavior: smooth;
+    font-family: Roboto;
+    line-height: 1.6;
+    color: #666;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 500px auto auto;
+    grid-template-areas: "hd" "main" "ft";
+}
+.navbar-container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000002;
+}
+.navigation  {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+}
+.navigation a {
+    padding: 1em;
+    color: white;
+}
+.header{
+    background-image: url("../img/header.jpeg");
+}
+.box{
+    background-color: #fff;
+    margin-bottom: 1.6rem;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.footer{
+    background-color: #000002;
+    height: 50px;
+    grid-area: ft;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 13px;
+}
+.post-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    padding: 60px;
+
+}
+.post_meta time {
+    color: #595959;
+    margin-left: 0.8rem;
+}
+.post-image{
+    width: 100%;
+    max-width: 100% !important;
+    display: block;
+    height: 170px !important;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+ }
+ 
+.post {
+    padding: 1.6rem;
+}
+
+.post-title {
+    margin: 0;
+
+}
+
+.post-card-footer {
+    overflow: hidden;
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.writer-image {
+     width: 40px;
+     border-radius: 50%;
+     margin-right: 0.6em;
+     box-shadow: 0 2px 4px rgba(0,0,0, 0.12), 0 2px 4px rgba(0,0,0, 0.24);
+     display: inline-block;
+     vertical-align: middle;
+}

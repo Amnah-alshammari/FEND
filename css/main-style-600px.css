@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+
+.navbar-container {
+    display: block !important;
+}
+
+.logo {
+    font-size: 1.8em;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    color: #fff;
+}
+.navigation{
+    justify-content: center !important;
+}
+
+.post-cards {
+     display: grid !important;
+     grid-template-columns: repeat(1, 1fr) !important;
+     grid-auto-rows: auto !important;
+     grid-gap: 1rem !important;
+     padding: 60px !important;
+
+}
