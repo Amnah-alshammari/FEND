@@ -45,7 +45,7 @@ html,body{
 }
 .footer{
     background-color: #000002;
-    height: 50px;
+    height: 2.0rem;
     grid-area: ft;
     width: 100%;
     color: #fff;
