@@ -32,7 +32,7 @@ html,body{
 }
 .navigation a {
     padding: 1em;
-    color: white;
+    color: #fff;
 }
 .header{
     background-image: url("../img/header.jpeg");
